@@ -55,6 +55,15 @@ body{
     background-color: #242457;
     color: white;
     padding: 3rem;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    max-width: 10%;
+}
+
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 footer img {
@@ -65,6 +74,7 @@ footer img {
     background-color: #F5F5F5;
     width: 100%;
     padding-right: 2.5rem;
+    display: inline-flex;
 }
 
 .image-container{
